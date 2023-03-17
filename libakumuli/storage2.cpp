@@ -40,6 +40,8 @@
 
 #include "fcntl_compat.h"
 #include <cstdlib>
+#include <stack>
+
 
 namespace Akumuli {
 

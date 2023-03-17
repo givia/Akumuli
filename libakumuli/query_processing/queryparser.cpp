@@ -79,7 +79,7 @@ aku_Status SeriesRetreiver::add_series_name(std::string name) {
     if (status != AKU_SUCCESS) {
         return status;
     }
-    series_.push_back(std::string(canonical.data(), keystr_end));
+    series_.push_back(std::string(canonical.data(), size));
     return AKU_SUCCESS;
 }
 

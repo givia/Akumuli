@@ -1,6 +1,7 @@
 #include "resp.h"
 #include <boost/exception/all.hpp>
 #include <cassert>
+#include <limits>
 
 namespace Akumuli {
 
